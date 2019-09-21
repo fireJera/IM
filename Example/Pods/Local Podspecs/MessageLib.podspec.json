@@ -1,9 +1,9 @@
 {
   "name": "MessageLib",
   "version": "0.1.0",
-  "summary": "A short description of MessageLib.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/r913218338@163.com/MessageLib",
+  "summary": "https://git.imdsk.com/ios_zhuqiu/MessageLib.git",
+  "description": "* Think: What does it do? Why did you write it? What is the focus? \\n Try to keep it short, snappy and to the point.\\n Write the description between the DESC delimiters below.\\n Finally, do not worry about the indent, CocoaPods strips it!",
+  "homepage": "https://git.imdsk.com/ios_zhuqiu/MessageLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,22 @@
     "r913218338@163.com": "r913218338@163.com"
   },
   "source": {
-    "git": "https://github.com/r913218338@163.com/MessageLib.git",
+    "git": "https://git.imdsk.com/ios_zhuqiu/MessageLib.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "MessageLib/Classes/**/*"
+  "source_files": "MessageLib/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.2"
+    ],
+    "MQTTClient": [
+
+    ],
+    "FMDB": [
+
+    ]
+  }
 }

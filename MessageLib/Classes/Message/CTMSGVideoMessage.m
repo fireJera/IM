@@ -9,9 +9,9 @@
 #import "CTMSGVideoMessage.h"
 #import <objc/runtime.h>
 #import "CTMSGUserInfo.h"
-//#import <CodeFrame/CodeFrame.h>
+#import "CTMSGEnumDefine.h"
 #import "NSData+CTMSG_Base64.h"
-#import "UIImage+CTMSG_Cat.h"
+#import "UIImage+CTMSG_String.h"
 
 NSString * const CTMSGVideoMessageTypeIdentifier =  @"CTMSG:VideoMsg";
 NSString * const CTMSGVideoMessageNetTypeIdentifier = @"video";
@@ -143,7 +143,7 @@ NSString * const CTMSGVideoMessageNetTypeIdentifier = @"video";
                 NSData * data = [[NSData alloc] initWithBase64EncodedString:thumbnail options:NSDataBase64DecodingIgnoreUnknownCharacters];
                 self.thumbnailImage = [UIImage imageWithData:data];
             } else {
-                self.thumbnailImage = [UIImage ctmsg_imageInLocalPath:self.localaPath];
+                self.thumbnailImage = [UIImage ctmsg_libImageInLocalPath:self.localaPath];
             }
             self.extra = dictionary[@"extra"];
             NSDictionary *userinfoDic = dictionary[@"user"];

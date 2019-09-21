@@ -248,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "r913218338@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = T68LJY9YV7;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -527,6 +530,7 @@
 			baseConfigurationReference = 4FC0DA17491D7790D0575993 /* Pods-MessageLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T68LJY9YV7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MessageLib/MessageLib-Prefix.pch";
 				INFOPLIST_FILE = "MessageLib/MessageLib-Info.plist";
@@ -544,6 +548,7 @@
 			baseConfigurationReference = 99B4DFFCCF1955899D764291 /* Pods-MessageLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T68LJY9YV7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MessageLib/MessageLib-Prefix.pch";
 				INFOPLIST_FILE = "MessageLib/MessageLib-Info.plist";

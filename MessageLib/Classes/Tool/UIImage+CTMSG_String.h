@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (CTMSG_String)
-
++ (UIImage *)ctmsg_libImageInLocalPath:(NSString *)videoPath;
 - (NSString *)ctmsg_imageBase64String;
 
 @end
