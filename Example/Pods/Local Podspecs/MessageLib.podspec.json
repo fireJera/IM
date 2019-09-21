@@ -1,0 +1,22 @@
+{
+  "name": "MessageLib",
+  "version": "0.1.0",
+  "summary": "A short description of MessageLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/r913218338@163.com/MessageLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "r913218338@163.com": "r913218338@163.com"
+  },
+  "source": {
+    "git": "https://github.com/r913218338@163.com/MessageLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MessageLib/Classes/**/*"
+}

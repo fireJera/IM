@@ -1,0 +1,6 @@
+framework module MessageLib {
+  umbrella header "MessageLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
