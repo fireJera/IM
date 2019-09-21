@@ -1,10 +1,10 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'MessageLib_Example' do
-    #pod 'MessageLib', :path => '../'
-  pod 'MessageLib', :path => '../MessageLib.podspec'
+  pod 'MessageLib', :path => '../'
+  #pod 'MessageLib', :path => '../MessageLib.podspec'
 
   target 'MessageLib_Tests' do
     inherit! :search_paths

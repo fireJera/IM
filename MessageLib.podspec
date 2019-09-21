@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MessageLib'
   s.version          = '0.1.0'
-  s.summary          = 'https://git.imdsk.com/ios_zhuqiu/MessageLib.git'
+  s.summary          = 'nothing'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-s.description      = '* Think: What does it do? Why did you write it? What is the focus? \n Try to keep it short, snappy and to the point.\n Write the description between the DESC delimiters below.\n Finally, do not worry about the indent, CocoaPods strips it!'
+  s.description      = 'for test'
   s.homepage         = 'https://git.imdsk.com/ios_zhuqiu/MessageLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -35,8 +35,8 @@ s.description      = '* Think: What does it do? Why did you write it? What is th
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 3.2'
-  s.dependency 'MQTTClient'
-  s.dependency 'FMDB'
+  # s.dependency 'AFNetworking', '~> 3.2'
+  # s.dependency 'MQTTClient'
+  # s.dependency 'FMDB'
   
 end
