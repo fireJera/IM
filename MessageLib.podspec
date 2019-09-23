@@ -32,8 +32,12 @@ s.description      = 'zhuqiu MessageLib, follow Function Included: Connect to se
   # s.resource_bundles = {
   #   'MessageLib' => ['MessageLib/Assets/*.png']
   # }
-#s.static_framework = true
-  s.vendored_library    = '**/libopencore-amrnb.a' ,'**/libopencore-amrwb.a'
+  s.static_framework = true
+  s.vendored_libraries   =  'lib/libopencore-amrnb.a', 'lib/libopencore-amrwb.a'
+#s.ios.vendored_library   =  'Third/AMRCODE/lib/libopencore-amrnb.a', 'Third/AMRCODE/lib/libopencore-amrwb.a'
+#s.vendored_libraries = 'libopencore-amrnb.a', 'libopencore-amrwb.a'
+  #s.vendored_library   =  'Third/AMRCODE/lib/libopencore-amrnb.a', 'Third/AMRCODE/lib/libopencore-amrwb.a'
+  #s.vendored_library    = '**/libopencore-amrnb.a'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'AFNetworking', '~> 3.2'

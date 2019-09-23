@@ -19,9 +19,10 @@
     "ios": "9.0"
   },
   "source_files": "MessageLib/Classes/**/*",
+  "static_framework": true,
   "vendored_libraries": [
-    "**/libopencore-amrnb.a",
-    "**/libopencore-amrwb.a"
+    "lib/libopencore-amrnb.a",
+    "lib/libopencore-amrwb.a"
   ],
   "dependencies": {
     "AFNetworking": [
