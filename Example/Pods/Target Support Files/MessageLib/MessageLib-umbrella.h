@@ -10,11 +10,6 @@
 #endif
 #endif
 
-#import "amrFileCodec.h"
-#import "interf_dec.h"
-#import "interf_enc.h"
-#import "dec_if.h"
-#import "if_rom.h"
 #import "NSData+CTMSG_Base64.h"
 #import "NSString+CTMSG_Temp.h"
 #import "UIImage+CTMSG_String.h"
