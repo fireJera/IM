@@ -9,7 +9,7 @@
 #import "CTMSGVideoMessageCell.h"
 #import "CTMSGMessageModel.h"
 //#import "CTMSGVideoMessage.h"
-#import <MessageLib/MessageLib.h>
+#import <MessageLib/MessageLib-umbrella.h>
 #import "CTMSGContentView.h"
 #import "CTMSGImageMessageProgressView.h"
 #import "CTMSGUtilities.h"
@@ -91,6 +91,7 @@ const int CTMSGVideoMessageCellMinHeight = 120;
 }
 
 - (void)updateStatusContentView:(CTMSGMessageModel *)model {
+    [super updateStatusContentView:model];
     _palyIcon.hidden = YES;
     if (model.sentStatus == SentStatus_SENDING) {
         self.progressView.frame = self.messageContentView.bounds;

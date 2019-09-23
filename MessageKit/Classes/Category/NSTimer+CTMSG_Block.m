@@ -11,7 +11,6 @@
 
 @implementation NSTimer (CTMSG_Block)
 
-
 + (NSTimer *)ctmsg_scheduledTimerWithTimeInterval:(NSTimeInterval)interval repeats:(BOOL)repeats block:(void (^)(void))block {
     return [self scheduledTimerWithTimeInterval:interval target:self selector:@selector(p_ctmsg_blockInvoke:) userInfo:[block copy] repeats:repeats];
 }

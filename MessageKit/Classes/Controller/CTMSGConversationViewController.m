@@ -13,7 +13,7 @@
 #import <objc/runtime.h>
 #import <objc/message.h>
 #import <IQKeyboardManager/IQKeyboardManager.h>
-#import <MessageLib/MessageLib.h>
+#import <MessageLib/MessageLib-umbrella.h>
 #import "CTMSGChatCameraViewController.h"
 #import "CTMSGAlbumListViewController.h"
 #import "CTMSGAlbumManager.h"

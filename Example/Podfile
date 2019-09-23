@@ -1,9 +1,14 @@
 use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.imdsk.com/ios_zhuqiu/mySpecs.git'
+#source 'https://git.imdsk.com/ios_zhuqiu/MessageLib.git'
 
 target 'MessageKit_Example' do
   pod 'MessageKit', :path => '../'
+  #pod 'MessageKit', :path => '../MessageKit.podspec'
 
   target 'MessageKit_Tests' do
     inherit! :search_paths

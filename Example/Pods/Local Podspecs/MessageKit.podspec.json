@@ -1,9 +1,9 @@
 {
   "name": "MessageKit",
   "version": "0.1.0",
-  "summary": "A short description of MessageKit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/r913218338@163.com/MessageKit",
+  "summary": "Message UIKit.",
+  "description": "Message UIKit to display messageList And MessageDetail",
+  "homepage": "https://git.imdsk.com/ios_zhuqiu/MessageLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,28 @@
     "r913218338@163.com": "r913218338@163.com"
   },
   "source": {
-    "git": "https://github.com/r913218338@163.com/MessageKit.git",
+    "git": "https://git.imdsk.com/ios_zhuqiu/MessageKit.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "MessageKit/Classes/**/*"
+  "source_files": "MessageKit/Classes/**/*",
+  "dependencies": {
+    "GPUImage": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MessageLib": [
+
+    ],
+    "YYCache": [
+
+    ]
+  }
 }
