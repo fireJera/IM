@@ -38,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		1F79F0E4D486BC9AAACBD9B1 /* Pods-MessageLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessageLib_Tests/Pods-MessageLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F2D484123365208009B386A /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "../MessageLib/Classes/Third/AMRCODE/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		3F2D484323365218009B386A /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "../MessageLib/Classes/Third/AMRCODE/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
 		41205189FB1812E8AD46F28B /* Pods_MessageLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MessageLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D738416014F48FD01AD673D /* Pods-MessageLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MessageLib_Tests/Pods-MessageLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4FC0DA17491D7790D0575993 /* Pods-MessageLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MessageLib_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MessageLib_Example/Pods-MessageLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +121,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3F2D484323365218009B386A /* libopencore-amrwb.a */,
+				3F2D484123365208009B386A /* libopencore-amrnb.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -374,10 +378,16 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MessageLib_Example/Pods-MessageLib_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MQTTClient/MQTTClient.framework",
 				"${BUILT_PRODUCTS_DIR}/MessageLib/MessageLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MQTTClient.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
