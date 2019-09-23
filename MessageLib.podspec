@@ -33,7 +33,8 @@ s.description      = 'zhuqiu MessageLib, follow Function Included: Connect to se
   #   'MessageLib' => ['MessageLib/Assets/*.png']
   # }
   s.static_framework = true
-  s.vendored_libraries   =  'lib/libopencore-amrnb.a', 'lib/libopencore-amrwb.a'
+  s.vendored_libraries   =  'MessageLib/lib/libopencore-amrnb.a', 'MessageLib/lib/libopencore-amrwb.a'
+  s.ios.vendored_library   =  'libopencore-amrnb.a', ' libopencore-amrwb.a'
 #s.ios.vendored_library   =  'Third/AMRCODE/lib/libopencore-amrnb.a', 'Third/AMRCODE/lib/libopencore-amrwb.a'
 #s.vendored_libraries = 'libopencore-amrnb.a', 'libopencore-amrwb.a'
   #s.vendored_library   =  'Third/AMRCODE/lib/libopencore-amrnb.a', 'Third/AMRCODE/lib/libopencore-amrwb.a'

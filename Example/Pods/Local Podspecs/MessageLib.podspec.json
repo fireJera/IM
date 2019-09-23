@@ -24,6 +24,12 @@
     "lib/libopencore-amrnb.a",
     "lib/libopencore-amrwb.a"
   ],
+  "ios": {
+    "vendored_libraries": [
+      "libopencore-amrnb.a",
+      " libopencore-amrwb.a"
+    ]
+  },
   "dependencies": {
     "AFNetworking": [
       "~> 3.2"
