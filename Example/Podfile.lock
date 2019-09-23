@@ -68,7 +68,7 @@ SPEC CHECKSUMS:
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  MessageLib: 1e1b08765700e14e05b2a0f490123a9bb85f1b98
+  MessageLib: f571d7267c6e5e63e32885aca8d95b2a64baa7c7
   MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 

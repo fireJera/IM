@@ -566,7 +566,6 @@
 		55779D0358AC50D0C475A8ACFE4EB7D2 /* Pods-MessageLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MessageLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		579DDD504099766C2FC973903EF3B198 /* CTMSGUploadMediaStatusListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTMSGUploadMediaStatusListener.h; sourceTree = "<group>"; };
 		586A506E364CA0D3C8138261818E4AA1 /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
-		5A3396D896A9FB8F513C0FE3A0845DA1 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "MessageLib/lib/libopencore-amrwb.a"; sourceTree = "<group>"; };
 		5A35BE6D6F6F1E7D650E3BBBB6990C08 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		5BD1F53BC6636D593F3CBD0B0B59ABAA /* SpectaUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaUtility.m; path = Specta/Specta/SpectaUtility.m; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -589,7 +588,6 @@
 		65AE4E88CCEE95114EE138CE5743C1F0 /* Specta-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-prefix.pch"; sourceTree = "<group>"; };
 		66C55A44FDF8C72AB570012556BE05FA /* MQTTCoreDataPersistence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTCoreDataPersistence.h; path = MQTTClient/MQTTClient/MQTTCoreDataPersistence.h; sourceTree = "<group>"; };
 		68D87DB746F1476B23D4F023AC1078DC /* CTMSGMessageContent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTMSGMessageContent.h; sourceTree = "<group>"; };
-		692D15C7F23894FAE3E01CD9FC63553A /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "MessageLib/lib/libopencore-amrnb.a"; sourceTree = "<group>"; };
 		695272B5EB1B23A8E3C677F0A85AF6FB /* SPTExampleGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SPTExampleGroup.m; path = Specta/Specta/SPTExampleGroup.m; sourceTree = "<group>"; };
 		6AD475838A0EA68519A0FDD7C75487F1 /* EXPMatchers+match.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+match.m"; path = "Expecta/Matchers/EXPMatchers+match.m"; sourceTree = "<group>"; };
 		6B0C02333704FA9197B8343E31A0FF2F /* EXPMatchers+haveCountOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+haveCountOf.m"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.m"; sourceTree = "<group>"; };
@@ -715,6 +713,7 @@
 		C4937F088D60D346E525B0C90CBF8487 /* Expecta+Snapshots-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-umbrella.h"; sourceTree = "<group>"; };
 		C4E3CE31F1D5896569220CA7B9E4595F /* CTMSGVoiceMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTMSGVoiceMessage.h; sourceTree = "<group>"; };
 		C4F927E50581E8451B8E8F22266FF7CC /* MQTTCFSocketTransport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MQTTCFSocketTransport.h; path = MQTTClient/MQTTClient/MQTTCFSocketTransport.h; sourceTree = "<group>"; };
+		C5182605795EF1589F547B1EAED71CB3 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "MessageLib/libopencore-amrnb.a"; sourceTree = "<group>"; };
 		C644487FD42B19ADCB9A2EBC766EDFF5 /* CTMSGRecallNotificationMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTMSGRecallNotificationMessage.m; sourceTree = "<group>"; };
 		C6B834022B2D9CA72B8CB3D217122CB7 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
 		C730FA74D4C9AAACD32DCBDF7EC05164 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
@@ -788,6 +787,7 @@
 		F5B4E5F47E305B2B4320BA9E37DC28CB /* CTMSGMetionedInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTMSGMetionedInfo.h; sourceTree = "<group>"; };
 		F5F24D46AC52DCB50CECB8D83E31F6DD /* Pods-MessageLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MessageLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F6C0242EBA43CD7E73A3CD4DC8D02402 /* Expecta+Snapshots-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Expecta+Snapshots-prefix.pch"; sourceTree = "<group>"; };
+		F7AA7927F11A8E3B86B1BE581B225A11 /* libopencore-amrwb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrwb.a"; path = "MessageLib/libopencore-amrwb.a"; sourceTree = "<group>"; };
 		F7E2C362574E2CEF5EA38169E6B567BA /* Specta-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Specta-umbrella.h"; sourceTree = "<group>"; };
 		F839BFDCCD57B87FC5F8C39407B60AA0 /* Pods-MessageLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MessageLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		FBB02AEE9E1A7CD658C50842C07047BE /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
@@ -987,15 +987,6 @@
 			path = "opencore-amrwb";
 			sourceTree = "<group>";
 		};
-		0F837B1F13D9BA94693633A77E1177EC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				692D15C7F23894FAE3E01CD9FC63553A /* libopencore-amrnb.a */,
-				5A3396D896A9FB8F513C0FE3A0845DA1 /* libopencore-amrwb.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		16DB223E6276EBBE4C15A39F5BD98C2F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1155,6 +1146,15 @@
 			);
 			name = "Pods-MessageLib_Example";
 			path = "Target Support Files/Pods-MessageLib_Example";
+			sourceTree = "<group>";
+		};
+		54C876EEAE18AFB9B0BFB3D846B406CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5182605795EF1589F547B1EAED71CB3 /* libopencore-amrnb.a */,
+				F7AA7927F11A8E3B86B1BE581B225A11 /* libopencore-amrwb.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		5BFDCDAC29458BF7702E5F2662244E0B /* Serialization */ = {
@@ -1598,7 +1598,7 @@
 				F268E0AD86C5062A7902D6098945A23F /* CTMSGEnumDefine.h */,
 				8497874D89D1A71257B28F823518DD05 /* AMRCODE */,
 				8A1154C24EDEDBBA97B939200D2173BF /* Catgeory */,
-				0F837B1F13D9BA94693633A77E1177EC /* Frameworks */,
+				54C876EEAE18AFB9B0BFB3D846B406CE /* Frameworks */,
 				A4C7CE8A7AE76CF23F2FBF7B1198D6D8 /* Message */,
 				6F6DB062F796A63A51DD05759974E36D /* Model */,
 				87EB16327359E7034C143A577A0737BA /* Pod */,
