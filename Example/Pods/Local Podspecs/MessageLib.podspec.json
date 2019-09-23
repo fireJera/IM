@@ -21,8 +21,8 @@
   "source_files": "MessageLib/Classes/**/*",
   "static_framework": true,
   "vendored_libraries": [
-    "lib/libopencore-amrnb.a",
-    "lib/libopencore-amrwb.a"
+    "MessageLib/lib/libopencore-amrnb.a",
+    "MessageLib/lib/libopencore-amrwb.a"
   ],
   "ios": {
     "vendored_libraries": [
