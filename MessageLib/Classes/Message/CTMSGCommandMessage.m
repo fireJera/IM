@@ -14,7 +14,7 @@ NSString * const CTMSGCommandMessageTypeIdentifier =  @"CTMSG:CmdMsg";
 
 @implementation CTMSGCommandMessage
 
-+ (instancetype)messageWithName:(NSString *)name data:(nonnull NSDictionary *)data module:(nonnull NSString *)module {
++ (instancetype)messageWithName:(NSString *)name data:(NSDictionary *)data module:(nullable NSString *)module {
     CTMSGCommandMessage * message = [[CTMSGCommandMessage alloc] init];
     if (data) {
         message.data = data;

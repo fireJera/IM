@@ -7,7 +7,10 @@
 //
 
 #import "CTMSGAppDelegate.h"
-
+//https://www.jianshu.com/p/cff4436564f5
+//https://www.jianshu.com/p/006d6ab89c3c
+//https://juejin.im/post/5cee8b12f265da1b5e72d630
+//https://www.cnblogs.com/tufeibo/p/5654268.html
 @implementation CTMSGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

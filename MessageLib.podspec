@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MessageLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'https://git.imdsk.com/ios_zhuqiu/MessageLib.git'
 
 # This description is used to generate tags and improve search results.

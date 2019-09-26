@@ -22,7 +22,7 @@
 #import "CTMSGInformationNotificationMessage.h"
 
 #if __has_include (<FMDB/FMDB.h>)
-#import <FMDB/FMDB.h>
+#import <fmdb/FMDB.h>
 #else
 #import "FMDB/FMDB.h"
 #endif

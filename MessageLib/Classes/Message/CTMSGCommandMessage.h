@@ -21,7 +21,7 @@ extern NSString * const CTMSGCommandMessageTypeIdentifier;
  */
 @interface CTMSGCommandMessage : CTMSGMessageContent <NSCoding>
 
-@property(nonatomic, strong) NSString *module;
+@property(nonatomic, strong) NSString * _Nullable module;
 /*!
  命令的名称
  */
@@ -41,7 +41,7 @@ extern NSString * const CTMSGCommandMessageTypeIdentifier;
  @param data    命令的扩展数据
  @return        命令消息对象
  */
-+ (instancetype)messageWithName:(NSString *)name data:(NSDictionary *)data module:(NSString *)module;
++ (instancetype)messageWithName:(NSString *)name data:(NSDictionary *)data module:(nullable NSString *)module;
 
 @end
 
