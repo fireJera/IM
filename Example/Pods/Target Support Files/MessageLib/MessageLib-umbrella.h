@@ -28,6 +28,7 @@
 #import "CTMSGUnknownMessage.h"
 #import "CTMSGVideoMessage.h"
 #import "CTMSGVoiceMessage.h"
+#import "MessageLib.h"
 #import "CTMSGConversation.h"
 #import "CTMSGMetionedInfo.h"
 #import "CTMSGReceiptInfo.h"

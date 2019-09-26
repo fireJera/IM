@@ -29,7 +29,7 @@ PODS:
   - FMDB/standard (2.7.5)
   - GPUImage (0.1.7)
   - IQKeyboardManager (6.5.0)
-  - MessageLib (0.1.2):
+  - MessageLib (0.1.21):
     - AFNetworking (~> 3.2)
     - FMDB
     - MQTTClient
@@ -88,7 +88,7 @@ SPEC CHECKSUMS:
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
   IQKeyboardManager: 700e5155d6a292383b54e8678aec769e14fc78fc
-  MessageLib: 053547c1d1e33bfc7ac2407c037994609ed588bf
+  MessageLib: 8dc9bc19918ab1dca495fc83e98e73165292d9d7
   MMessageKit: d4054e4f6c87b7bc0815a3c3876f14be3fa5ab90
   MQTTClient: 902c7bcac1501595f3d0b15178c7205b40331fb0
   SDWebImage: 96d7f03415ccb28d299d765f93557ff8a617abd8
