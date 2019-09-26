@@ -1,0 +1,6 @@
+framework module Pods_MMessageKit_Tests {
+  umbrella header "Pods-MMessageKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
