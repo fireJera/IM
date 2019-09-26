@@ -9,7 +9,7 @@
 #import "CTMSGVoiceMessageCell.h"
 #import "CTMSGMessageModel.h"
 //#import "CTMSGVoiceMessage.h"
-#import <MessageLib/MessageLib-umbrella.h>
+#import <MessageLib/MessageLib.h>
 //#import <MessageLib/CTMSGVoiceMessage.h>
 //#import <MessageLib/CTMSGDataBaseManager.h>
 #import "CTMSGContentView.h"

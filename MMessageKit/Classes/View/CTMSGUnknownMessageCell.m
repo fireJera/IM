@@ -9,7 +9,7 @@
 #import "CTMSGUnknownMessageCell.h"
 #import "CTMSGMessageModel.h"
 #import "CTMSGTextMessageCell.h"
-#import <MessageLib/MessageLib-umbrella.h>
+#import <MessageLib/MessageLib.h>
 #import "CTMSGUtilities.h"
 #import "CTMSGContentView.h"
 #import "UIColor+CTMSG_Hex.h"

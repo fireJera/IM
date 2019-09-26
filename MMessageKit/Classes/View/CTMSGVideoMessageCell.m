@@ -9,7 +9,7 @@
 #import "CTMSGVideoMessageCell.h"
 #import "CTMSGMessageModel.h"
 //#import "CTMSGVideoMessage.h"
-#import <MessageLib/MessageLib-umbrella.h>
+#import <MessageLib/MessageLib.h>
 #import "CTMSGContentView.h"
 #import "CTMSGImageMessageProgressView.h"
 #import "CTMSGUtilities.h"

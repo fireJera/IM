@@ -11,7 +11,7 @@
 //#import "CTMSGLocationMessage.h"
 #import "CTMSGContentView.h"
 
-#import <MessageLib/MessageLib-umbrella.h>
+#import <MessageLib/MessageLib.h>
 
 @implementation CTMSGLocationMessageCell
 

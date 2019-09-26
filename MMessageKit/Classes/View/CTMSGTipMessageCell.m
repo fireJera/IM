@@ -10,7 +10,7 @@
 #import "CTMSGMessageModel.h"
 //#import "CTMSGCommandNotificationMessage.h"
 //#import "CTMSGInformationNotificationMessage.h"
-#import <MessageLib/MessageLib-umbrella.h>
+#import <MessageLib/MessageLib.h>
 #import "UIColor+CTMSG_Hex.h"
 #import "CTMSGUtilities.h"
 

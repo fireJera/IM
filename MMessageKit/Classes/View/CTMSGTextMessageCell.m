@@ -12,7 +12,7 @@
 #import "CTMSGContentView.h"
 #import "UIColor+CTMSG_Hex.h"
 #import "CTMSGUtilities.h"
-#import <MessageLib/MessageLib-umbrella.h>
+#import <MessageLib/MessageLib.h>
 
 const int Text_Message_Font_Size = 16;
 // 文字距离气泡的左边

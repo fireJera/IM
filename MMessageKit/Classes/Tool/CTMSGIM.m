@@ -16,7 +16,7 @@
 #import "CTMSGAudioRecordTool.h"
 #import "CTMSGMessageBaseCell.h"
 #import <objc/message.h>
-#import <MessageLib/MessageLib-umbrella.h>
+#import <MessageLib/MessageLib.h>
 #import "CTMSGLocalPushHelper.h"
 
 NSString *const CTMSGKitDispatchMessageNotification = @"CTMSGKitDispatchMessageNotification";
