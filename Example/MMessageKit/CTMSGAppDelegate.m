@@ -7,6 +7,7 @@
 //
 
 #import "CTMSGAppDelegate.h"
+#import <MMessageKit/MessageKit.h>
 
 @implementation CTMSGAppDelegate
 

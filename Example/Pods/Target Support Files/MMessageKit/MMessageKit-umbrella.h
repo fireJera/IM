@@ -40,7 +40,7 @@
 #import "CTMSGConversationViewController.h"
 #import "CTMSGEmoticonTabSource.h"
 #import "CTMSGSystemMsgListController.h"
-#import "MessageKit.h"
+#import "MMessageKit.h"
 #import "CTMSGConversationModel.h"
 #import "CTMSGDUserInfo.h"
 #import "CTMSGMessageModel.h"
