@@ -1,0 +1,1 @@
+../../../MMessageKit/MMessageKit/Classes/View/CTMSGAttributedLabel.h

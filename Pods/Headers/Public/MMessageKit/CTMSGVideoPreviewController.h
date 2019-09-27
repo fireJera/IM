@@ -1,0 +1,1 @@
+../../../MMessageKit/MMessageKit/Classes/Controller/Album/CTMSGVideoPreviewController.h

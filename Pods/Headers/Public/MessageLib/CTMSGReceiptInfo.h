@@ -1,0 +1,1 @@
+../../../MessageLib/MessageLib/Classes/Model/CTMSGReceiptInfo.h

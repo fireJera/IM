@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F899D75233DB0C3001BFED6 /* INTCTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F899D74233DB0C3001BFED6 /* INTCTViewController.m */; };
+		3FB294C5233CE10D00EA6886 /* INTCTConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294B1233CE10D00EA6886 /* INTCTConversationListViewController.m */; };
+		3FB294C6233CE10D00EA6886 /* INTCTConversationListViewmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294B2233CE10D00EA6886 /* INTCTConversationListViewmodel.m */; };
+		3FB294C7233CE10D00EA6886 /* INTCTChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294B3233CE10D00EA6886 /* INTCTChatManager.m */; };
+		3FB294C8233CE10D00EA6886 /* INTCTFastTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294B6233CE10D00EA6886 /* INTCTFastTextView.m */; };
+		3FB294C9233CE10D00EA6886 /* INTCTLockMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB294BD233CE10D00EA6886 /* INTCTLockMessageCell.xib */; };
+		3FB294CA233CE10D00EA6886 /* INTCTLockMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294BF233CE10D00EA6886 /* INTCTLockMessageCell.m */; };
+		3FB294CB233CE10D00EA6886 /* INTCTConversationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294C1233CE10D00EA6886 /* INTCTConversationModel.m */; };
+		3FB294CC233CE10D00EA6886 /* INTCTConversationListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294C2233CE10D00EA6886 /* INTCTConversationListModel.m */; };
+		3FB294CD233CE10D00EA6886 /* INTCTConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294C3233CE10D00EA6886 /* INTCTConversationViewController.m */; };
+		3FB294CE233CE10D00EA6886 /* INTCTConversationViewmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294C4233CE10D00EA6886 /* INTCTConversationViewmodel.m */; };
+		3FB294D3233CE30E00EA6886 /* UIFont+INTCT_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294CF233CE30D00EA6886 /* UIFont+INTCT_Custom.m */; };
+		3FB294D4233CE30E00EA6886 /* UIColor+INTCT_Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294D1233CE30E00EA6886 /* UIColor+INTCT_Hex.m */; };
+		3FB294D7233CE31A00EA6886 /* UIView+INTCT_Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294D6233CE31A00EA6886 /* UIView+INTCT_Frame.m */; };
+		3FB294DC233CE67800EA6886 /* INTCTNetWorkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294DB233CE67700EA6886 /* INTCTNetWorkManager.m */; };
+		3FB294DF233CE68A00EA6886 /* INTCTNetWorkManager+IChat.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294DE233CE68A00EA6886 /* INTCTNetWorkManager+IChat.m */; };
+		3FB294E2233CE77400EA6886 /* INTCTUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294E1233CE77300EA6886 /* INTCTUser.m */; };
+		3FB294E7233CE80400EA6886 /* INTCTUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294E4233CE80400EA6886 /* INTCTUserDefaults.m */; };
+		3FB294E8233CE80400EA6886 /* GVUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294E6233CE80400EA6886 /* GVUserDefaults.m */; };
+		3FB294EB233CE9F300EA6886 /* NSString+INTCT_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294EA233CE9F200EA6886 /* NSString+INTCT_Custom.m */; };
+		3FB294EE233CEA3700EA6886 /* NSData+INTCT_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294ED233CEA3600EA6886 /* NSData+INTCT_Custom.m */; };
+		3FB294F1233CEADD00EA6886 /* INTCTViewmodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294EF233CEADD00EA6886 /* INTCTViewmodel.m */; };
+		3FB294F6233CEC7900EA6886 /* INTCTAliOSS.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294F3233CEC7800EA6886 /* INTCTAliOSS.m */; };
+		3FB294F7233CEC7900EA6886 /* INTCTAliOSSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294F4233CEC7800EA6886 /* INTCTAliOSSModel.m */; };
+		3FB294FD233CEEC300EA6886 /* UIColor+INTCT_App.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294FC233CEEC300EA6886 /* UIColor+INTCT_App.m */; };
+		3FB29500233CF67400EA6886 /* NSGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB294FE233CF67300EA6886 /* NSGIF.m */; };
+		3FB29503233CF68C00EA6886 /* UIImage+INTCT_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29502233CF68C00EA6886 /* UIImage+INTCT_Custom.m */; };
+		3FB29506233CF6A800EA6886 /* NSDate+INTCT_Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29504233CF6A800EA6886 /* NSDate+INTCT_Custom.m */; };
+		3FB29509233CF73700EA6886 /* NSObject+INTCT_YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB29508233CF73700EA6886 /* NSObject+INTCT_YYModel.m */; };
+		3FB2950C233CF78D00EA6886 /* INTCTKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB2950B233CF78C00EA6886 /* INTCTKeyChain.m */; };
+		3FF2B99F233C6A33006C7CE8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2B99E233C6A33006C7CE8 /* AppDelegate.m */; };
+		3FF2B9A2233C6A33006C7CE8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2B9A1233C6A33006C7CE8 /* ViewController.m */; };
+		3FF2B9A5233C6A33006C7CE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2B9A3233C6A33006C7CE8 /* Main.storyboard */; };
+		3FF2B9A7233C6A33006C7CE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2B9A6233C6A33006C7CE8 /* Assets.xcassets */; };
+		3FF2B9AA233C6A33006C7CE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF2B9A8233C6A33006C7CE8 /* LaunchScreen.storyboard */; };
+		3FF2B9AD233C6A33006C7CE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF2B9AC233C6A33006C7CE8 /* main.m */; };
+		A8A500BB5525DF2071936DA1 /* libPods-ChatDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4265BE154B0BDCF7FB33F6C9 /* libPods-ChatDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F899D73233DB0C3001BFED6 /* INTCTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = INTCTViewController.h; sourceTree = "<group>"; };
+		3F899D74233DB0C3001BFED6 /* INTCTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = INTCTViewController.m; sourceTree = "<group>"; };
+		3FB294B0233CE10D00EA6886 /* INTCTConversationListInfoDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTConversationListInfoDataSource.h; sourceTree = "<group>"; };
+		3FB294B1233CE10D00EA6886 /* INTCTConversationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTConversationListViewController.m; sourceTree = "<group>"; };
+		3FB294B2233CE10D00EA6886 /* INTCTConversationListViewmodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTConversationListViewmodel.m; sourceTree = "<group>"; };
+		3FB294B3233CE10D00EA6886 /* INTCTChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTChatManager.m; sourceTree = "<group>"; };
+		3FB294B4233CE10D00EA6886 /* INTCTConversationListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTConversationListModel.h; sourceTree = "<group>"; };
+		3FB294B5233CE10D00EA6886 /* INTCTConversationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTConversationModel.h; sourceTree = "<group>"; };
+		3FB294B6233CE10D00EA6886 /* INTCTFastTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTFastTextView.m; sourceTree = "<group>"; };
+		3FB294B7233CE10D00EA6886 /* INTCTConversationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTConversationDataSource.h; sourceTree = "<group>"; };
+		3FB294B8233CE10D00EA6886 /* INTCTLockMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTLockMessageCell.h; sourceTree = "<group>"; };
+		3FB294B9233CE10D00EA6886 /* INTCTConversationViewmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTConversationViewmodel.h; sourceTree = "<group>"; };
+		3FB294BA233CE10D00EA6886 /* INTCTConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTConversationViewController.h; sourceTree = "<group>"; };
+		3FB294BB233CE10D00EA6886 /* INTCTChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTChatManager.h; sourceTree = "<group>"; };
+		3FB294BC233CE10D00EA6886 /* INTCTConversationListViewmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTConversationListViewmodel.h; sourceTree = "<group>"; };
+		3FB294BD233CE10D00EA6886 /* INTCTLockMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = INTCTLockMessageCell.xib; sourceTree = "<group>"; };
+		3FB294BE233CE10D00EA6886 /* INTCTConversationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTConversationListViewController.h; sourceTree = "<group>"; };
+		3FB294BF233CE10D00EA6886 /* INTCTLockMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTLockMessageCell.m; sourceTree = "<group>"; };
+		3FB294C0233CE10D00EA6886 /* INTCTFastTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTFastTextView.h; sourceTree = "<group>"; };
+		3FB294C1233CE10D00EA6886 /* INTCTConversationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTConversationModel.m; sourceTree = "<group>"; };
+		3FB294C2233CE10D00EA6886 /* INTCTConversationListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTConversationListModel.m; sourceTree = "<group>"; };
+		3FB294C3233CE10D00EA6886 /* INTCTConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTConversationViewController.m; sourceTree = "<group>"; };
+		3FB294C4233CE10D00EA6886 /* INTCTConversationViewmodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTConversationViewmodel.m; sourceTree = "<group>"; };
+		3FB294CF233CE30D00EA6886 /* UIFont+INTCT_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+INTCT_Custom.m"; sourceTree = "<group>"; };
+		3FB294D0233CE30D00EA6886 /* UIFont+INTCT_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+INTCT_Custom.h"; sourceTree = "<group>"; };
+		3FB294D1233CE30E00EA6886 /* UIColor+INTCT_Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+INTCT_Hex.m"; sourceTree = "<group>"; };
+		3FB294D2233CE30E00EA6886 /* UIColor+INTCT_Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+INTCT_Hex.h"; sourceTree = "<group>"; };
+		3FB294D5233CE31A00EA6886 /* UIView+INTCT_Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+INTCT_Frame.h"; sourceTree = "<group>"; };
+		3FB294D6233CE31A00EA6886 /* UIView+INTCT_Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+INTCT_Frame.m"; sourceTree = "<group>"; };
+		3FB294D8233CE3B400EA6886 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		3FB294D9233CE58900EA6886 /* INTCTViewControllerInfoDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTViewControllerInfoDataSource.h; sourceTree = "<group>"; };
+		3FB294DA233CE67700EA6886 /* INTCTNetWorkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTNetWorkManager.h; sourceTree = "<group>"; };
+		3FB294DB233CE67700EA6886 /* INTCTNetWorkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTNetWorkManager.m; sourceTree = "<group>"; };
+		3FB294DD233CE68A00EA6886 /* INTCTNetWorkManager+IChat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "INTCTNetWorkManager+IChat.h"; sourceTree = "<group>"; };
+		3FB294DE233CE68A00EA6886 /* INTCTNetWorkManager+IChat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "INTCTNetWorkManager+IChat.m"; sourceTree = "<group>"; };
+		3FB294E0233CE77300EA6886 /* INTCTUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTUser.h; sourceTree = "<group>"; };
+		3FB294E1233CE77300EA6886 /* INTCTUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTUser.m; sourceTree = "<group>"; };
+		3FB294E3233CE80400EA6886 /* GVUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVUserDefaults.h; sourceTree = "<group>"; };
+		3FB294E4233CE80400EA6886 /* INTCTUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTUserDefaults.m; sourceTree = "<group>"; };
+		3FB294E5233CE80400EA6886 /* INTCTUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTUserDefaults.h; sourceTree = "<group>"; };
+		3FB294E6233CE80400EA6886 /* GVUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVUserDefaults.m; sourceTree = "<group>"; };
+		3FB294E9233CE9F200EA6886 /* NSString+INTCT_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+INTCT_Custom.h"; sourceTree = "<group>"; };
+		3FB294EA233CE9F200EA6886 /* NSString+INTCT_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+INTCT_Custom.m"; sourceTree = "<group>"; };
+		3FB294EC233CEA3600EA6886 /* NSData+INTCT_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+INTCT_Custom.h"; sourceTree = "<group>"; };
+		3FB294ED233CEA3600EA6886 /* NSData+INTCT_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+INTCT_Custom.m"; sourceTree = "<group>"; };
+		3FB294EF233CEADD00EA6886 /* INTCTViewmodel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTViewmodel.m; sourceTree = "<group>"; };
+		3FB294F0233CEADD00EA6886 /* INTCTViewmodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTViewmodel.h; sourceTree = "<group>"; };
+		3FB294F2233CEC7800EA6886 /* INTCTAliOSS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTAliOSS.h; sourceTree = "<group>"; };
+		3FB294F3233CEC7800EA6886 /* INTCTAliOSS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTAliOSS.m; sourceTree = "<group>"; };
+		3FB294F4233CEC7800EA6886 /* INTCTAliOSSModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTAliOSSModel.m; sourceTree = "<group>"; };
+		3FB294F5233CEC7900EA6886 /* INTCTAliOSSModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTAliOSSModel.h; sourceTree = "<group>"; };
+		3FB294FB233CEEC200EA6886 /* UIColor+INTCT_App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+INTCT_App.h"; sourceTree = "<group>"; };
+		3FB294FC233CEEC300EA6886 /* UIColor+INTCT_App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+INTCT_App.m"; sourceTree = "<group>"; };
+		3FB294FE233CF67300EA6886 /* NSGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSGIF.m; sourceTree = "<group>"; };
+		3FB294FF233CF67400EA6886 /* NSGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSGIF.h; sourceTree = "<group>"; };
+		3FB29501233CF68B00EA6886 /* UIImage+INTCT_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+INTCT_Custom.h"; sourceTree = "<group>"; };
+		3FB29502233CF68C00EA6886 /* UIImage+INTCT_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+INTCT_Custom.m"; sourceTree = "<group>"; };
+		3FB29504233CF6A800EA6886 /* NSDate+INTCT_Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+INTCT_Custom.m"; sourceTree = "<group>"; };
+		3FB29505233CF6A800EA6886 /* NSDate+INTCT_Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+INTCT_Custom.h"; sourceTree = "<group>"; };
+		3FB29507233CF73700EA6886 /* NSObject+INTCT_YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+INTCT_YYModel.h"; sourceTree = "<group>"; };
+		3FB29508233CF73700EA6886 /* NSObject+INTCT_YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+INTCT_YYModel.m"; sourceTree = "<group>"; };
+		3FB2950A233CF78C00EA6886 /* INTCTKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTCTKeyChain.h; sourceTree = "<group>"; };
+		3FB2950B233CF78C00EA6886 /* INTCTKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INTCTKeyChain.m; sourceTree = "<group>"; };
+		3FF2B99A233C6A33006C7CE8 /* ChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FF2B99D233C6A33006C7CE8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3FF2B99E233C6A33006C7CE8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3FF2B9A0233C6A33006C7CE8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3FF2B9A1233C6A33006C7CE8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FF2B9A4233C6A33006C7CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FF2B9A6233C6A33006C7CE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FF2B9A9233C6A33006C7CE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FF2B9AB233C6A33006C7CE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF2B9AC233C6A33006C7CE8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4265BE154B0BDCF7FB33F6C9 /* libPods-ChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EB0BD66251C6F02A3EECC61 /* Pods-ChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemo.release.xcconfig"; path = "Target Support Files/Pods-ChatDemo/Pods-ChatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9BE38FBA6FF73135F523029B /* Pods-ChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatDemo.debug.xcconfig"; path = "Target Support Files/Pods-ChatDemo/Pods-ChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FF2B997233C6A33006C7CE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A500BB5525DF2071936DA1 /* libPods-ChatDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33843E396159006593AA2DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4265BE154B0BDCF7FB33F6C9 /* libPods-ChatDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F899D70233DB025001BFED6 /* Converstaion */ = {
+			isa = PBXGroup;
+			children = (
+				3FB294BB233CE10D00EA6886 /* INTCTChatManager.h */,
+				3FB294B3233CE10D00EA6886 /* INTCTChatManager.m */,
+				3FB294B0233CE10D00EA6886 /* INTCTConversationListInfoDataSource.h */,
+				3FB294BE233CE10D00EA6886 /* INTCTConversationListViewController.h */,
+				3FB294B1233CE10D00EA6886 /* INTCTConversationListViewController.m */,
+				3FB294BC233CE10D00EA6886 /* INTCTConversationListViewmodel.h */,
+				3FB294B2233CE10D00EA6886 /* INTCTConversationListViewmodel.m */,
+				3FB294C2233CE10D00EA6886 /* INTCTConversationListModel.m */,
+				3FB294B4233CE10D00EA6886 /* INTCTConversationListModel.h */,
+				3FB294B7233CE10D00EA6886 /* INTCTConversationDataSource.h */,
+				3FB294BA233CE10D00EA6886 /* INTCTConversationViewController.h */,
+				3FB294C3233CE10D00EA6886 /* INTCTConversationViewController.m */,
+				3FB294B9233CE10D00EA6886 /* INTCTConversationViewmodel.h */,
+				3FB294C4233CE10D00EA6886 /* INTCTConversationViewmodel.m */,
+				3FB294B5233CE10D00EA6886 /* INTCTConversationModel.h */,
+				3FB294C1233CE10D00EA6886 /* INTCTConversationModel.m */,
+				3FB294C0233CE10D00EA6886 /* INTCTFastTextView.h */,
+				3FB294B6233CE10D00EA6886 /* INTCTFastTextView.m */,
+				3FB294B8233CE10D00EA6886 /* INTCTLockMessageCell.h */,
+				3FB294BF233CE10D00EA6886 /* INTCTLockMessageCell.m */,
+				3FB294BD233CE10D00EA6886 /* INTCTLockMessageCell.xib */,
+			);
+			path = Converstaion;
+			sourceTree = "<group>";
+		};
+		3F899D71233DB026001BFED6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				3FB294D2233CE30E00EA6886 /* UIColor+INTCT_Hex.h */,
+				3FB294D1233CE30E00EA6886 /* UIColor+INTCT_Hex.m */,
+				3FB294D0233CE30D00EA6886 /* UIFont+INTCT_Custom.h */,
+				3FB294CF233CE30D00EA6886 /* UIFont+INTCT_Custom.m */,
+				3FB294D5233CE31A00EA6886 /* UIView+INTCT_Frame.h */,
+				3FB294D6233CE31A00EA6886 /* UIView+INTCT_Frame.m */,
+				3FB29507233CF73700EA6886 /* NSObject+INTCT_YYModel.h */,
+				3FB29508233CF73700EA6886 /* NSObject+INTCT_YYModel.m */,
+				3FB294D9233CE58900EA6886 /* INTCTViewControllerInfoDataSource.h */,
+				3FB294D8233CE3B400EA6886 /* Header.h */,
+				3FB294DA233CE67700EA6886 /* INTCTNetWorkManager.h */,
+				3FB294DB233CE67700EA6886 /* INTCTNetWorkManager.m */,
+				3FB2950A233CF78C00EA6886 /* INTCTKeyChain.h */,
+				3FB2950B233CF78C00EA6886 /* INTCTKeyChain.m */,
+				3FB294DD233CE68A00EA6886 /* INTCTNetWorkManager+IChat.h */,
+				3FB294DE233CE68A00EA6886 /* INTCTNetWorkManager+IChat.m */,
+				3FB294F0233CEADD00EA6886 /* INTCTViewmodel.h */,
+				3FB294EF233CEADD00EA6886 /* INTCTViewmodel.m */,
+				3FB294E0233CE77300EA6886 /* INTCTUser.h */,
+				3FB294E1233CE77300EA6886 /* INTCTUser.m */,
+				3FB294E3233CE80400EA6886 /* GVUserDefaults.h */,
+				3FB294E6233CE80400EA6886 /* GVUserDefaults.m */,
+				3FB294E5233CE80400EA6886 /* INTCTUserDefaults.h */,
+				3FB294E4233CE80400EA6886 /* INTCTUserDefaults.m */,
+				3FB294EC233CEA3600EA6886 /* NSData+INTCT_Custom.h */,
+				3FB294ED233CEA3600EA6886 /* NSData+INTCT_Custom.m */,
+				3FB294E9233CE9F200EA6886 /* NSString+INTCT_Custom.h */,
+				3FB294EA233CE9F200EA6886 /* NSString+INTCT_Custom.m */,
+				3FB29505233CF6A800EA6886 /* NSDate+INTCT_Custom.h */,
+				3FB29504233CF6A800EA6886 /* NSDate+INTCT_Custom.m */,
+				3FB29501233CF68B00EA6886 /* UIImage+INTCT_Custom.h */,
+				3FB29502233CF68C00EA6886 /* UIImage+INTCT_Custom.m */,
+				3FB294FB233CEEC200EA6886 /* UIColor+INTCT_App.h */,
+				3FB294FC233CEEC300EA6886 /* UIColor+INTCT_App.m */,
+				3FB294F2233CEC7800EA6886 /* INTCTAliOSS.h */,
+				3FB294F3233CEC7800EA6886 /* INTCTAliOSS.m */,
+				3FB294FF233CF67400EA6886 /* NSGIF.h */,
+				3FB294FE233CF67300EA6886 /* NSGIF.m */,
+				3FB294F5233CEC7900EA6886 /* INTCTAliOSSModel.h */,
+				3FB294F4233CEC7800EA6886 /* INTCTAliOSSModel.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		3F899D72233DB0AE001BFED6 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				3F899D73233DB0C3001BFED6 /* INTCTViewController.h */,
+				3F899D74233DB0C3001BFED6 /* INTCTViewController.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		3FF2B991233C6A33006C7CE8 = {
+			isa = PBXGroup;
+			children = (
+				3FF2B99C233C6A33006C7CE8 /* ChatDemo */,
+				3FF2B99B233C6A33006C7CE8 /* Products */,
+				AC49F45273DF62A481DD0E0A /* Pods */,
+				33843E396159006593AA2DE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3FF2B99B233C6A33006C7CE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FF2B99A233C6A33006C7CE8 /* ChatDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FF2B99C233C6A33006C7CE8 /* ChatDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F899D72233DB0AE001BFED6 /* other */,
+				3F899D71233DB026001BFED6 /* Tool */,
+				3F899D70233DB025001BFED6 /* Converstaion */,
+				3FF2B99D233C6A33006C7CE8 /* AppDelegate.h */,
+				3FF2B99E233C6A33006C7CE8 /* AppDelegate.m */,
+				3FF2B9A0233C6A33006C7CE8 /* ViewController.h */,
+				3FF2B9A1233C6A33006C7CE8 /* ViewController.m */,
+				3FF2B9A3233C6A33006C7CE8 /* Main.storyboard */,
+				3FF2B9A6233C6A33006C7CE8 /* Assets.xcassets */,
+				3FF2B9A8233C6A33006C7CE8 /* LaunchScreen.storyboard */,
+				3FF2B9AB233C6A33006C7CE8 /* Info.plist */,
+				3FF2B9AC233C6A33006C7CE8 /* main.m */,
+			);
+			path = ChatDemo;
+			sourceTree = "<group>";
+		};
+		AC49F45273DF62A481DD0E0A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BE38FBA6FF73135F523029B /* Pods-ChatDemo.debug.xcconfig */,
+				5EB0BD66251C6F02A3EECC61 /* Pods-ChatDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FF2B999233C6A33006C7CE8 /* ChatDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF2B9B0233C6A33006C7CE8 /* Build configuration list for PBXNativeTarget "ChatDemo" */;
+			buildPhases = (
+				E078AD80815435496DD6339B /* [CP] Check Pods Manifest.lock */,
+				3FF2B996233C6A33006C7CE8 /* Sources */,
+				3FF2B997233C6A33006C7CE8 /* Frameworks */,
+				3FF2B998233C6A33006C7CE8 /* Resources */,
+				B26A42C4D3A7639E4C6C5BEF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatDemo;
+			productName = ChatDemo;
+			productReference = 3FF2B99A233C6A33006C7CE8 /* ChatDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FF2B992233C6A33006C7CE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = ChatDemo;
+				TargetAttributes = {
+					3FF2B999233C6A33006C7CE8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 3FF2B995233C6A33006C7CE8 /* Build configuration list for PBXProject "ChatDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FF2B991233C6A33006C7CE8;
+			productRefGroup = 3FF2B99B233C6A33006C7CE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FF2B999233C6A33006C7CE8 /* ChatDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FF2B998233C6A33006C7CE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF2B9AA233C6A33006C7CE8 /* LaunchScreen.storyboard in Resources */,
+				3FB294C9233CE10D00EA6886 /* INTCTLockMessageCell.xib in Resources */,
+				3FF2B9A7233C6A33006C7CE8 /* Assets.xcassets in Resources */,
+				3FF2B9A5233C6A33006C7CE8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B26A42C4D3A7639E4C6C5BEF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatDemo/Pods-ChatDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatDemo/Pods-ChatDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatDemo/Pods-ChatDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E078AD80815435496DD6339B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FF2B996233C6A33006C7CE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB294C5233CE10D00EA6886 /* INTCTConversationListViewController.m in Sources */,
+				3FB29503233CF68C00EA6886 /* UIImage+INTCT_Custom.m in Sources */,
+				3FB294CA233CE10D00EA6886 /* INTCTLockMessageCell.m in Sources */,
+				3FB294F7233CEC7900EA6886 /* INTCTAliOSSModel.m in Sources */,
+				3FB29509233CF73700EA6886 /* NSObject+INTCT_YYModel.m in Sources */,
+				3FB294DF233CE68A00EA6886 /* INTCTNetWorkManager+IChat.m in Sources */,
+				3FF2B9A2233C6A33006C7CE8 /* ViewController.m in Sources */,
+				3FB294C7233CE10D00EA6886 /* INTCTChatManager.m in Sources */,
+				3FB294CE233CE10D00EA6886 /* INTCTConversationViewmodel.m in Sources */,
+				3FB294EE233CEA3700EA6886 /* NSData+INTCT_Custom.m in Sources */,
+				3FB294CB233CE10D00EA6886 /* INTCTConversationModel.m in Sources */,
+				3FB294E8233CE80400EA6886 /* GVUserDefaults.m in Sources */,
+				3FB294FD233CEEC300EA6886 /* UIColor+INTCT_App.m in Sources */,
+				3FB294E2233CE77400EA6886 /* INTCTUser.m in Sources */,
+				3FB294CC233CE10D00EA6886 /* INTCTConversationListModel.m in Sources */,
+				3FB294EB233CE9F300EA6886 /* NSString+INTCT_Custom.m in Sources */,
+				3FB294E7233CE80400EA6886 /* INTCTUserDefaults.m in Sources */,
+				3F899D75233DB0C3001BFED6 /* INTCTViewController.m in Sources */,
+				3FB294F6233CEC7900EA6886 /* INTCTAliOSS.m in Sources */,
+				3FB294DC233CE67800EA6886 /* INTCTNetWorkManager.m in Sources */,
+				3FB294F1233CEADD00EA6886 /* INTCTViewmodel.m in Sources */,
+				3FB29500233CF67400EA6886 /* NSGIF.m in Sources */,
+				3FB294D7233CE31A00EA6886 /* UIView+INTCT_Frame.m in Sources */,
+				3FB294C6233CE10D00EA6886 /* INTCTConversationListViewmodel.m in Sources */,
+				3FB294CD233CE10D00EA6886 /* INTCTConversationViewController.m in Sources */,
+				3FB294C8233CE10D00EA6886 /* INTCTFastTextView.m in Sources */,
+				3FF2B9AD233C6A33006C7CE8 /* main.m in Sources */,
+				3FB294D3233CE30E00EA6886 /* UIFont+INTCT_Custom.m in Sources */,
+				3FB29506233CF6A800EA6886 /* NSDate+INTCT_Custom.m in Sources */,
+				3FB2950C233CF78D00EA6886 /* INTCTKeyChain.m in Sources */,
+				3FB294D4233CE30E00EA6886 /* UIColor+INTCT_Hex.m in Sources */,
+				3FF2B99F233C6A33006C7CE8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3FF2B9A3233C6A33006C7CE8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF2B9A4233C6A33006C7CE8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FF2B9A8233C6A33006C7CE8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FF2B9A9233C6A33006C7CE8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FF2B9AE233C6A33006C7CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3FF2B9AF233C6A33006C7CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FF2B9B1233C6A33006C7CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BE38FBA6FF73135F523029B /* Pods-ChatDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68LJY9YV7;
+				INFOPLIST_FILE = ChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatDemo.ChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FF2B9B2233C6A33006C7CE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB0BD66251C6F02A3EECC61 /* Pods-ChatDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T68LJY9YV7;
+				INFOPLIST_FILE = ChatDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatDemo.ChatDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FF2B995233C6A33006C7CE8 /* Build configuration list for PBXProject "ChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF2B9AE233C6A33006C7CE8 /* Debug */,
+				3FF2B9AF233C6A33006C7CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF2B9B0233C6A33006C7CE8 /* Build configuration list for PBXNativeTarget "ChatDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FF2B9B1233C6A33006C7CE8 /* Debug */,
+				3FF2B9B2233C6A33006C7CE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FF2B992233C6A33006C7CE8 /* Project object */;
+}

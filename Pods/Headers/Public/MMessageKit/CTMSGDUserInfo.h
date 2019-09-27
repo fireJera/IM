@@ -1,0 +1,1 @@
+../../../MMessageKit/MMessageKit/Classes/Model/CTMSGDUserInfo.h

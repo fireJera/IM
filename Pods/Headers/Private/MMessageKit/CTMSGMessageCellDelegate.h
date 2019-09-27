@@ -1,0 +1,1 @@
+../../../MMessageKit/MMessageKit/Classes/View/CTMSGMessageCellDelegate.h
