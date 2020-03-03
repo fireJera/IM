@@ -1,0 +1,33 @@
+{
+  "name": "MessageLib",
+  "version": "0.1.2",
+  "summary": "https://git.imdsk.com/ios_zhuqiu/MessageLib.git",
+  "description": "zhuqiu MessageLib, follow Function Included: Connect to server send Text Message & database",
+  "homepage": "https://git.imdsk.com/ios_zhuqiu/MessageLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "r913218338@163.com": "r913218338@163.com"
+  },
+  "source": {
+    "git": "https://git.imdsk.com/ios_zhuqiu/MessageLib.git",
+    "tag": "0.1.2"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MessageLib/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.2"
+    ],
+    "MQTTClient": [
+
+    ],
+    "FMDB": [
+
+    ]
+  }
+}

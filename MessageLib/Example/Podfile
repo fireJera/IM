@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'MessageLib_Example' do
+  pod 'MessageLib', :path => '../'
+  #pod 'MessageLib', :path => '../MessageLib.podspec'
+
+  target 'MessageLib_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
