@@ -1,0 +1,19 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.imdsk.com/ios_zhuqiu/mySpecs.git'
+
+target 'MMessageKit_Example' do
+  pod 'MMessageKit', :path => '../'
+  #pod 'MessageKit', :path => '../MMessageKit.podspec'
+  target 'MMessageKit_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
